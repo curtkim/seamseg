@@ -8,4 +8,5 @@ pycocotools
 torch==1.1
 git+git://github.com/waspinator/pycococreator.git@0.2.0
 git+https://github.com/mapillary/inplace_abn.git
-git+https://github.com/mcordts/cityscapesScripts.git
+cityscapesScripts==1.1.0
+tensorboardX
