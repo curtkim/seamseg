@@ -19,7 +19,7 @@ parser.add_argument("out_dir", metavar="OUT_DIR", type=str, help="Output directo
 _SPLITS = {
     "train": ("leftImg8bit/train", "gtFine/train"),
     "val": ("leftImg8bit/val", "gtFine/val"),
-    "coarse": ("leftImg8bit/train_extra", "gtCoarse/train_extra")
+    # "coarse": ("leftImg8bit/train_extra", "gtCoarse/train_extra")
 }
 _INSTANCE_EXT = "_instanceIds.png"
 _IMAGE_EXT = "_leftImg8bit.png"
